@@ -1,0 +1,6 @@
+{
+    "domain": "dev-dt7i58nc.eu.auth0.com",
+    "clientId": "KjktBkMTLvfWVsVIcC5gycwm4h6y6eZN",
+    "audience": "http://junbetterway/security/angular/api",
+    "serverUrl": "http://localhost:8888"
+}
