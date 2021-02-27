@@ -21,7 +21,7 @@ __[Auth0](https://auth0.com/)__ helps anyone to do the following:
 2. Use Google, GitHub or Microsoft Account to login.
 
 # Customize [Auth0](https://auth0.com/) Configuration
-After you have setup your Auth0 account and the above linked tutorials, make sure to udpate the auth_config.json.
+After you have setup your Auth0 account and the above linked tutorials, make sure to udpate the __auth_config.json__.
 
 ```
 {
