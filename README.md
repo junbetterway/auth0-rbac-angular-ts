@@ -1,4 +1,4 @@
-# Angular 11 With Security Using [Auth0](https://auth0.com/) 
+# Angular 11 With Role-Based Access Control Using [Auth0](https://auth0.com/) 
 __[Auth0](https://auth0.com/)__ has simplified the process of securing single-page applications (SPAs). 
 
 This repository serves as a basic example on how to secure your SPA using __[Angular 11](https://angular.io/)__. Also, this tutorial focuses on role-based access control which is supported by __[Auth0](https://auth0.com/)__ - see [Auth0 - Role-Based Access Control](https://auth0.com/docs/authorization/rbac) tutorial.
