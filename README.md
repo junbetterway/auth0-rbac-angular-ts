@@ -3,7 +3,9 @@ __[Auth0](https://auth0.com/)__ has simplified the process of securing single-pa
 
 This repository serves as a basic example on how to secure your SPA using __[Angular 11](https://angular.io/)__. Also, this tutorial focuses on role-based access control which is supported by __[Auth0](https://auth0.com/)__ - see [Auth0 - Role-Based Access Control](https://auth0.com/docs/authorization/rbac) tutorial.
 
-__[Auth0](https://auth0.com/)__ Angular SDK has simplified the login integration, authentication service, http intereceptors (and more) with your SPA. See [Auth0 Quickstart for Angular](https://auth0.com/docs/quickstart/spa/angular) for more details on how to setup your application.
+__[Auth0](https://auth0.com/)__ Angular SDK has simplified the login integration, authentication service, http intereceptors (and more) with your SPA. See [Auth0 Quickstart for Angular](https://auth0.com/docs/quickstart/spa/angular) for more details on how to setup your application quickly.
+
+For more detailed steps, you can also read this [__guide__](https://auth0.com/blog/complete-guide-to-angular-user-authentication/) as a reference.
 
 Lastly, please clone the __[backend module](https://github.com/junbetterway/auth0-rbac-spring-sec)__ which is readily integrated to this front-end repository.
 
