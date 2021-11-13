@@ -12,12 +12,12 @@ export class AccountService {
   
   constructor(private http: HttpClient) { }
 
-  postAdminAccount(): Observable<Account> {
-    return this.http.post(`${env.api.serverUrl}/api/account`, { name: 'Admin Account', balance: 100000 });
+  guestAccount(): Observable<Account> {
+    return this.http.get(`${env.api.serverUrl}/api/account/guest`);
   }
 
-  getPrivate(): Observable<Account> {
-    return this.http.get(`${env.api.serverUrl}/api/account`);
+  systemAccount(): Observable<Account> {
+    return this.http.get(`${env.api.serverUrl}/api/account/system`);
   }
 
 }

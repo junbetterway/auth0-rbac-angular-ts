@@ -14,11 +14,11 @@ export class MyAccountComponent implements OnInit {
   constructor(private accountService : AccountService) { }
 
   ngOnInit(): void {
-    this.getPrivateAccountView();
+    this.guestAccount();
   }
 
-  getPrivateAccountView(): void {
-    this.accountService.getPrivate()
+  guestAccount(): void {
+    this.accountService.guestAccount()
       .subscribe(
         data => {
           this.account = data;

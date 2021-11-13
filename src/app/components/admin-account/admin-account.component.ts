@@ -17,11 +17,11 @@ export class AdminAccountComponent implements OnInit {
     private router: Router) { }
 
   ngOnInit(): void {
-    this.getPrivateAccountView();
+    this.systemAccount();
   }
 
-  getPrivateAccountView(): void {
-    this.accountService.postAdminAccount()
+  systemAccount(): void {
+    this.accountService.systemAccount()
       .subscribe(
         data => {
           this.account = data;
