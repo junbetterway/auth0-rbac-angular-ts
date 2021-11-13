@@ -14,7 +14,8 @@ export class AdminAccountComponent implements OnInit {
 
   constructor(
     private accountService : AccountService,
-    private router: Router) { }
+    private router: Router,
+  ) { }
 
   ngOnInit(): void {
     this.systemAccount();
